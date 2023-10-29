@@ -1,0 +1,131 @@
+body {
+    background-image: linear-gradient(to right top, #0e0b16, #3b0f5e, #76127c, #bb1e85, #f44b8d);
+
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    /* padding: 20px; */
+}
+
+.Data-box {
+    background-color: #87a9fa;
+    padding: 30px;
+    border-radius: 24px 0 24px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Add smooth transition */
+}
+
+input, button {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #6a0381;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b65f4;
+}
+
+/* Your existing styles remain the same */
+
+.table-container {
+    padding: 20px;
+    margin-top: 20px;
+}
+.table-container h2{
+    position: relative;
+    left: 10px;
+}
+
+#attendanceTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#attendanceTable th, #attendanceTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#printButton {
+    margin-top: 20px;
+    background-color: #ca07f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 140px;
+}
+
+#printButton:hover {
+    background-color: #0b65f4;
+}
+
+footer {
+    background-color: #435ef8;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    position: fixed;
+    top: 96%;
+    bottom: 0;
+    right: 0px;
+    width: 100vw;
+  }
+  
+
+/* Responsive styles */
+@media (max-width: 400px) {
+    .attendance-box {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width:667px) {
+    .table-container {
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width:740px) {
+    .table-container {
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}

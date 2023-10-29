@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Attendance-logos.jpeg" type="image/x-icon"/>
+    <title>Mark Your Attendance Using Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="color: rgb(183, 240, 240); "><marquee behavior="" direction="left">Mark Your Attendance Using Link</marquee></h1>
+        <div class="Data-box">
+            <h2>Enter Your Data</h2>
+            <input type="text" id="name" placeholder="Enter your Full name" required>
+            <input type="number" id="class" placeholder="Enter your Roll Number" required>
+            
+            <button id="LinkButton">Generate Unique Link</button>
+            <p id="mainLink"></p>
+            
+            <!-- connect attendance page -->
+            <a href="attendance.html" target="_blank" class="redirect-button">Mark Your Attendance</a>
+        </div>
+    </div>
+    <footer> Created By - &nbsp; Ritik Kumar </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

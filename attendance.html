@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Attendance-logos.jpeg" type="image/x-icon"/>
+    <title>Attendance Using Link - Submit Link</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="Data-box">
+            <h2>Enter Link In Box</h2>
+            <input type="text" id="enteredLink" placeholder="Enter your unique link" required>
+            <button id="submitLinkButton">Submit</button>
+        </div>
+
+        <div class="table-container">
+            <h2 style="color: whitesmoke;">Attendance Table</h2>
+            <table id="attendanceTable">
+                <tr style="color: rgba(238, 236, 236, 0.764);">
+                    <th>Name</th>
+                    <th>Roll Number</th>
+                    <th> Time</th>
+                </tr>
+            </table>
+            <button id="printButton">Print Table</button>
+        </div>
+    </div>
+    <footer> Created By - &nbsp; Ritik Kumar </footer>
+    <script src="attendance_script.js"></script>
+</body>
+
+</html>
